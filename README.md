@@ -1,5 +1,6 @@
 Figma Design : https://www.figma.com/file/HeZVvwSFuIDclQOgueVBGu/AnyMaterial?node-id=0%3A1&t=LIIJnbBWeWj0LOL9-1
 
+Database Design : https://drawsql.app/teams/control-1/diagrams/any-material
 
 ## Work on frontend
 
