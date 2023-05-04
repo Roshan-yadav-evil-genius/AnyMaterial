@@ -1,0 +1,66 @@
+.HorizontalBook {
+    width: 450px;
+    border-radius: 20px;
+    padding-left: 25px;
+}
+.HorizontalBook .top{
+    display: flex;
+}
+.HorizontalBook .top .coverWrapper{
+    position: relative;
+    width: 220px;
+    /* background-color: red; */
+}
+.HorizontalBook .top .coverWrapper .cover{
+    position: absolute;
+    top: -35%;
+}
+.HorizontalBook .top .ratingWrapper{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+.HorizontalBook .rating{
+  border-radius: 20px 0 0 20px;
+}
+.HorizontalBook .details{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.HorizontalBook .details .dictData{
+    display: flex;
+    gap: 10px;
+}
+.HorizontalBook .details .info{
+    display:flex;
+    justify-content: space-evenly;
+}
+.HorizontalBook .details .info .dictData{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.HorizontalBook .priceWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.HorizontalBook .details .info .dictData .value{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+}
+.dictData .key{
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 600;
+}
+.dictData .value{
+    color: #828282;
+}
+.operations{
+    margin: 10px;
+    display: flex;
+    gap: 20px;
+}

@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family:'Roboto'; /*Haedings : 'Montserrat' */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FFFDF4;
+  color: #212429;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

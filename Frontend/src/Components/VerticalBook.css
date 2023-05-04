@@ -1,0 +1,52 @@
+.VerticalNotesCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0px;
+  /* gap: 10px; */
+  width: 240px;
+
+}
+.VerticalNotesCard .rcWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.VerticalNotesCard .rcWrapper .rating{
+  border-radius: 0 20px 20px 0;
+
+}
+.VerticalNotesCard .rcWrapper .CartIcon{
+    margin-right: 20px;
+    font-size: 25px;
+    transform: translateY(-5px);
+    color: #828282;
+}
+
+
+.VerticalNotesCard .title{
+    padding: 0 20px;
+}
+.VerticalNotesCard .apWrappper{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    justify-content: space-between;
+    border-top: 0.812586px solid #DDE2E5;
+}
+
+.VerticalNotesCard .apWrappper .author .key{
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+}
+.VerticalNotesCard .apWrappper .author .value{
+    color: #828282;
+}
+.VerticalNotesCard .priceWrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
