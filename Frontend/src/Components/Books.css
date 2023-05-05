@@ -35,6 +35,17 @@
   justify-content: center;
   align-items: center;
 }
+.discountRevert {
+  background: #ffffff;
+  padding: 2px 4px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #e75c5c;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .cover img {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   border-radius: 5px;
