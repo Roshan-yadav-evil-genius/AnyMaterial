@@ -8,6 +8,10 @@ Database Design : https://drawsql.app/teams/control-1/diagrams/any-material
 2. start server to view progress or to work > npm start
 
 
+## Frontend Design pattern (Atomic structure)
+
+!(https://miro.medium.com/v2/resize:fit:720/format:webp/1*PcQ-m317YX6ct9ccBi6H1Q.png)
+
 - Atoms
   - Single, self-contained UI elements with no dependencies on other components.
   - Can include things like buttons, icons, inputs, labels, etc.
