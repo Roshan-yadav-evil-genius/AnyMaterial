@@ -13,7 +13,7 @@
 }
 .HorizontalBook .top .coverWrapper .cover{
     position: absolute;
-    top: -35%;
+    /* top: -70px; */
 }
 .HorizontalBook .top .ratingWrapper{
     display: flex;
@@ -26,15 +26,20 @@
 .HorizontalBook .details{
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
 }
 .HorizontalBook .details .dictData{
     display: flex;
-    gap: 10px;
+    gap:5px
 }
 .HorizontalBook .details .info{
     display:flex;
     justify-content: space-evenly;
+}
+.HorizontalBook .details .info .dictData:nth-child(2){
+    border-left: 1px solid #ACB5BD;
+    border-right: 1px solid #ACB5BD;
+    padding: 0 10px;
 }
 .HorizontalBook .details .info .dictData{
     display:flex;
@@ -44,7 +49,9 @@
 }
 .HorizontalBook .priceWrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px 0;
 }
 .HorizontalBook .details .info .dictData .value{
     font-family: "Montserrat";
