@@ -1,0 +1,212 @@
+.btn {
+  /* Default styles */
+  background-color: #533a0c;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin: 50px;
+  letter-spacing: 0.5px;
+
+  /* Hover styles */
+  &:hover {
+    background-color: #856016;
+    color: #fff;
+  }
+
+  /* Active styles */
+  &:active {
+    background-color: #a1751b;
+    color: #fff;
+  }
+
+  /* Focus styles */
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem #f4b63a7d;
+  }
+
+  /* Disabled styles */
+  &:disabled {
+    background-color: #b89e66bc;
+    cursor: not-allowed;
+  }
+}
+
+/* Size variant */
+
+.btn-sm {
+  font-size: 14px;
+  padding: 8px 10px;
+}
+.btn-md {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+.btn-lg {
+  font-size: 18px;
+  padding: 10px 20px;
+}
+
+/* Shape variant */
+
+.btn-rounded-rectangular {
+  border-radius: 10px;
+}
+.btn-rectangular {
+  border-radius: 5px;
+}
+
+/* Color variant */
+
+.btn-primary {
+  background-color: #533a0c;
+  color: #fff;
+  &:hover {
+    background-color: #856016;
+    color: #fff;
+  }
+
+  /* Active styles */
+  &:active {
+    background-color: #a1751b;
+    color: #fff;
+  }
+
+  /* Focus styles */
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 0.2rem #f4b63a7d;
+  }
+
+  /* Disabled styles */
+  &:disabled {
+    background-color: #b89e66bc;
+    cursor: not-allowed;
+  }
+}
+/* Success Button */
+.btn-success {
+    background-color: #1d3d1f;
+    color: #fff;
+    &:hover {
+      background-color: #3c7341;
+      color: #fff;
+    }
+    &:active {
+      background-color: #4c8d51;
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(76, 141, 81, 0.7);
+    }
+    &:disabled {
+      background-color: #6f9e7dbc;
+      cursor: not-allowed;
+    }
+  }
+  
+  /* Danger Button */
+  .btn-danger {
+    background-color: #761a1a;
+    color: #fff;
+    &:hover {
+      background-color: #a72f2f;
+      color: #fff;
+    }
+    &:active {
+      background-color: #ba3f3f;
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(183, 28, 28, 0.7);
+    }
+    &:disabled {
+      background-color: #b26767bc;
+      cursor: not-allowed;
+    }
+  }
+  
+  /* Warning Button */
+  .btn-warning {
+    background-color: #7b5d1d;
+    color: #fff;
+    &:hover {
+      background-color: #b48d2e;
+      color: #fff;
+    }
+    &:active {
+      background-color: #c49e3d;
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(196, 158, 61, 0.7);
+    }
+    &:disabled {
+      background-color: #b8a06ebc;
+      cursor: not-allowed;
+    }
+  }
+  
+  /* Info Button */
+  .btn-info {
+    background-color: #155f6c;
+    color: #fff;
+    &:hover {
+      background-color: #2b9fa3;
+      color: #fff;
+    }
+    &:active {
+      background-color: #3badba;
+      color: #fff;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(43, 159, 163, 0.7);
+    }
+    &:disabled {
+      background-color: #68a2b5bc;
+      cursor: not-allowed;
+    }
+  }
+  
+  /* Light Button */
+  .btn-light {
+    background-color: #f8f9fa;
+    color: #212529;
+    &:hover {
+      background-color: #e2e6ea;
+      color: #212529;
+    }
+    &:active {
+      background-color: #d6d8db;
+      color: #212529;
+    }
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.7);
+    }
+    &:disabled {
+      background-color: #ced4da9e;
+      cursor: not-allowed;
+    }
+  }
+  
+  /* Dark Button */
+  .btn-dark {
+    background-color: #212529;
+    color: #fff;
+    &:hover {
+      background-color: #343a40;
+      color: #fff;
+    }
+    &:active {
+      background-color: #42464b;
+      color: #fff;
+    }
+    /* &:focus {
+      outline:
+    } */
+}  
