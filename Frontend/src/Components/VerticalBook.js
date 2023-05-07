@@ -6,6 +6,7 @@ import "./Books.css";
 import Thumbnail from "../images/notesCovers/AnyMaterial (2).jpg";
 import { FaStar } from "react-icons/fa";
 import {BsFillCartPlusFill} from "react-icons/bs";
+import { Button } from "../Atoms/Buttons";
 
 const VerticalBook = () => {
   return (
@@ -40,7 +41,7 @@ const VerticalBook = () => {
             <div className="finalPrice">19.0 $</div>
           </div>
           <div>
-            <button className="buyNow">Buy now</button>
+            <Button size="sm" shape="rectangular">Buy now</Button>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ import "./Books.css";
 // Assets
 import { FaStar } from "react-icons/fa";
 import Thumbnail from "../images/notesCovers/AnyMaterial (2).jpg";
-
+import { Button } from "../Atoms/Buttons";
 const HorizontalBook = () => {
   return (
     <div className="HorizontalBook Notes">
@@ -62,8 +62,9 @@ const HorizontalBook = () => {
           <div className="finalPrice">19.0 $</div>
         </div>
         <div className="operations">
-          <button className="AddToCart">Add to Cart</button>
-          <button className="buyNow">Buy now</button>
+          <Button size="sm" shape="rectangular" variant="secondary">Add to Cart</Button>
+          <Button size="sm" shape="rectangular">Buy now</Button>
+
         </div>
       </div>
     </div>

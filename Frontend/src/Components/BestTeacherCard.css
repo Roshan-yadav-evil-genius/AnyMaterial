@@ -23,3 +23,11 @@
     border-radius: 50%;
     margin-top: 10px;
 }
+.branch{
+    font-weight: 500;
+    color: #acb5bd;
+}
+.experience{
+    font-weight: 500;
+    color: #ffc75f;
+}

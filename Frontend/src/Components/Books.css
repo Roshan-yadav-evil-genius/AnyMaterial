@@ -67,14 +67,6 @@
   color: #ffc75f;
 }
 
-button{
-    padding: 4px 8px;
-    border-radius: 5px;
-    border: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    height: min-content;
-}
 .buyNow{
     color: #ffffff;
     background: #212429;    
@@ -86,13 +78,14 @@ button{
 .price{
     display: flex;
     gap: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .price .mrp{
     text-decoration: line-through;
-    color: #828282;
-    
-    font-size: 14px;
+    color: #E75C5C;
+    font-weight: 500;    
 }
 .price .finalPrice{
     font-size: 18px;

@@ -4,10 +4,10 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 
 export const Button = ({ size, variant, shape, children, ...rest }) => {
-  const classes = classNames("btn", {
-    [`btn-${size}`]: size,
-    [`btn-${variant}`]: variant,
-    [`btn-${shape}`]: shape,
+  const classes = classNames("cbtn", {
+    [`cbtn-${size}`]: size,
+    [`cbtn-${variant}`]: variant,
+    [`cbtn-${shape}`]: shape,
   });
 
   return (

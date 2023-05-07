@@ -22,8 +22,8 @@ const BestTeacherCard = () => {
           size={20}
           activeColor="#ffd700"
         />
-        <p className="branch">Electronics Instrumentation Engg</p>
-        <p className="experience">Teaching Exp : <span className="experience">4 years</span></p>
+        <p className="branch small">Electronics Instrumentation Engg</p>
+        <p className="experience small">Teaching Exp : <span className="experience">4 years</span></p>
       </div>
     </div>
   );

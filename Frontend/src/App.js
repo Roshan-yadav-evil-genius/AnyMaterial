@@ -1,13 +1,13 @@
 import "./App.css";
-// import AllCards from "./Pages/allCards";
-import AllButtons from "./Pages/allButtons";
+import AllComponents from "./Pages/AllComponents";
+
 
 function App() {
   return (
     <div className="App">
-      <h1>Hlo</h1>
-      {/* <AllCards /> */}
-      <AllButtons/>
+
+      <h1>Components</h1>
+      <AllComponents />
     </div>
   );
 }
