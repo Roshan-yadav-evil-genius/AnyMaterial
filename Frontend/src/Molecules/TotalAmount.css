@@ -1,0 +1,20 @@
+.TotalAmount{
+    background-color: white;
+    border: 1px solid #3d2b09;
+    border-radius: 10px;
+    padding: 20px;
+}
+.TotalAmount .allprices{
+    border-bottom: 1px solid #3d2b09;
+}
+.TotalAmount .field{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 10px 0;
+}
+.TotalAmount .field .name{
+    /* font-size: 14px; */
+    font-weight: 500;
+    color: #3d2b09;
+}

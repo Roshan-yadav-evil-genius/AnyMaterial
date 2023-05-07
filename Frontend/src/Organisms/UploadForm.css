@@ -1,0 +1,168 @@
+.UploadForm{
+    background-color:white ;
+    border-radius: 20px;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.UploadForm .nameClose{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(170, 170, 170, 0.502);
+}
+.UploadForm form{
+    margin: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.iconbtn{
+    font-size: 30px;
+    background-color: transparent;
+    color: #3D2B09;
+}
+.iconbtn:hover{
+color: #99732B;
+}
+.form-section .form-body{
+    margin: 10px 20px;
+    display: flex;
+    gap: 50px;  
+}
+.form-section .form-body-vf{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;  
+}
+.form-section .form-body .field-groups{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.form-section .form-body .thumbnail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
+.form-body .field{
+    display: flex;
+    flex-direction: column;
+}
+.form-body .field label{
+    font-size: 16px;
+    color: #626262;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.form-body .field input,textarea{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 400px;
+    resize: none;
+    &:focus{
+    outline: 1px solid #ababab;
+
+    }
+}
+.form-body .field select{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 400px;
+    resize: none;
+    padding-right: 20px;
+    &:focus{
+    outline: 1px solid #ababab;
+
+    }
+}
+/* .form-body .field select option{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #F5F5F5;
+    outline: none;
+    width: 400px;
+    resize: none;
+    &:focus{
+    outline: 1px solid #ababab;
+
+    }
+} */
+.field-price-groups{
+    display: flex;
+    gap: 20px;
+    align-items: flex-end;
+}
+.field-price-groups .field input{
+    width: 200px;
+}
+.field-price-groups .icon{
+    font-size: 30px;
+    color: #626262;
+    margin-bottom: 10px;
+
+}
+.UploadForm .operations{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+.UploadForm .infoInputgroup{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 20px;
+}
+.inputbtn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.bookCovers{
+    display: flex;
+    gap: 10px;
+}
+.bookCover{
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px dashed #99732B;
+    margin: 20px;
+}
+.bookCover .icon{
+    font-size: 50px;
+    color: #99732B;
+}
+.bookCoverTemplates{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.bookCoverTemplates img{
+    width: 150px;
+    height: min-content;
+    box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.2);
+    height: 210px;
+    border-radius: 5px;
+}

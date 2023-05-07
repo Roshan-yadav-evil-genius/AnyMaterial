@@ -3,11 +3,12 @@ import "./Buttons.css";
 import PropTypes from "prop-types";
 import classNames from "classnames";
 
-export const Button = ({ size, variant, shape, children, ...rest }) => {
-  const classes = classNames("cbtn", {
+export const Button = ({ size, variant,className, shape,fluid, children, ...rest }) => {
+  const classes = classNames("cbtn",className, {
     [`cbtn-${size}`]: size,
     [`cbtn-${variant}`]: variant,
     [`cbtn-${shape}`]: shape,
+    [`cbtn-fluid-${fluid}`]: fluid,
   });
 
   return (
@@ -29,7 +30,9 @@ Button.propTypes = {
     "warning",
     "info",
     "dark",
+    "light"
   ]),
+  fluid: PropTypes.oneOf(["","h", "v","hv"]),
   shape: PropTypes.oneOf(["rounded-rectangular", "rectangular", "circle"]),
   children: PropTypes.node.isRequired,
 };
@@ -37,4 +40,15 @@ Button.defaultProps = {
   size: "md",
   variant: "primary",
   shape: "rounded-rectangular",
+  fluid: "",
 };
+
+
+export const LinkButton = ({size,className,children,...rest}) => {
+  const classes = classNames("cbtn-link",className, {
+    [`cbtn-${size}`]: size,
+  });
+  return (
+    <button className={classes} {...rest}>{children}</button>
+  )
+}

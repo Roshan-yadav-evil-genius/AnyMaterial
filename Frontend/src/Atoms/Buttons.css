@@ -4,7 +4,6 @@
   color: #fff;
   border: none;
   cursor: pointer;
-  /* margin: 50px; */
   font-weight: 500;
   letter-spacing: 0.5px;
   text-transform: uppercase;
@@ -36,24 +35,37 @@
     cursor: not-allowed;
   }
 }
+/* fluid */
+.cbtn-fluid-h{
+    width: 100%;
+}
+.cbtn-fluid-v{
+    height: 100%;
+}
+.cbtn-fluid-hv{
+    width: 100%;
+    height: 100%;
+}
 
 /* Size variant */
 
 .cbtn-sm {
-  font-size: 14px;
+  font-size: 14px !important;
   padding: 8px 10px;
 }
 .cbtn-md {
-  font-size: 16px;
+  font-size: 16px !important;
   padding: 10px 20px;
 }
 .cbtn-lg {
-  font-size: 18px;
+  font-size: 18px !important;
   padding: 10px 20px;
 }
 
 /* Shape variant */
-
+.cbtn-rounded{
+  border-radius: 50px;
+}
 .cbtn-rounded-rectangular {
   border-radius: 10px;
 }
@@ -209,4 +221,27 @@
     background-color: #42464b;
     color: #fff;
   }
+}
+
+/* Link Button */
+
+.cbtn-link{
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 1px;
+  height: min-content;
+  white-space: nowrap;
+  font-size: 14px;
+  outline: none;
+  color: rgb(88, 172, 255);
+  border: none;
+  padding: 0;
+}
+.cbtn-link:hover{
+  background-color: transparent;
+  color: rgb(0, 132, 255);
+}
+.cbtn-link:focus{
+  border: none;
+  outline: none;
 }
