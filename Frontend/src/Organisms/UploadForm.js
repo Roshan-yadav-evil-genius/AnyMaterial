@@ -9,7 +9,8 @@ import BookCoverTemplate1 from "../images/notesCovers/AnyMaterial (1).jpg";
 import BookCoverTemplate2 from "../images/notesCovers/AnyMaterial (1).webp";
 import BookCoverTemplate3 from "../images/notesCovers/AnyMaterial (2).jpg";
 import BookCoverTemplate4 from "../images/notesCovers/AnyMaterial (3).jpg";
-
+import {FiEdit} from "react-icons/fi"
+import {MdDone} from "react-icons/md"
 export const UploadFormStep1st = () => {
   return (
     <div className="UploadForm">
@@ -92,7 +93,7 @@ export const UploadFormStep1st = () => {
           <Button
             className="btn"
             size="sm"
-            variant="light">
+            variant="dark">
             Clear Fields
           </Button>
           <Button
@@ -267,7 +268,7 @@ export const UploadFormStep2nd = () => {
           <Button
             className="btn"
             size="sm"
-            variant="light">
+            variant="dark">
             Clear Fields
           </Button>
           <Button
@@ -277,6 +278,82 @@ export const UploadFormStep2nd = () => {
           </Button>
         </div>
       </form>
+    </div>
+  );
+};
+
+export const ViewFormDataStep3rd = () => {
+  return (
+    <div className="UploadForm">
+      <div className="nameClose">
+        <div className="name boldme">Master Peta.pdf</div>
+        <LinkButton className="iconbtn">
+          <RxCross2 />
+        </LinkButton>
+      </div>
+      <div className="previewFieldsWrapper">
+        <div className="form-section">
+          <h3 className="title">Preview</h3>
+          <div className="PreviewData">
+            <div className="notesFields">
+              <div className="label">Title</div>
+              <div className="value">Beginner to advance Python Notes</div>
+            </div>
+            <div className="notesFields">
+              <div className="label">Subject</div>
+              <div className="value">All</div>
+            </div>
+            <div className="notesFields">
+              <div className="label">Notes Cover</div>
+              <div className="value">Full </div>
+            </div>
+            <div className="notesFields">
+              <div className="label">Price</div>
+              <div className="value">500rs</div>
+            </div>
+            <div className="notesFields">
+              <div className="label">Covered Topics</div>
+              <div className="value">
+                Data Types, Varaibles, Print function, lambda function, list,
+                tuple
+              </div>
+            </div>
+            <div className="notesFields-v">
+              <div className="label">Description</div>
+              <div className="value">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Voluptatem, iusto ad? Sed iste quia ad in esse beatae
+                reiciendis, labore doloribus incidunt explicabo cupiditate?
+                Alias porro exercitationem esse tempora tempore.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="thumbnail">
+          <div className="cover">
+            <img
+              src={Thumbnail}
+              alt=""
+            />
+          </div>
+          <p className="filename">Master Peta.pdf</p>
+        </div>
+      </div>
+      <div className="operations">
+          <Button
+            className="btn"
+            size="sm"
+            variant="dark">
+            Edit
+            <FiEdit className="icon"/>
+          </Button>
+          <Button
+            className="btn"
+            size="sm">
+            Submit
+            <MdDone className="icon"/>
+          </Button>
+        </div>
     </div>
   );
 };

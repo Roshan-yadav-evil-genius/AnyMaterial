@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 1000px;
 }
 .UploadForm .nameClose{
     display: flex;
@@ -165,4 +166,35 @@ color: #99732B;
     box-shadow: 0px 2px 9px rgba(0, 0, 0, 0.2);
     height: 210px;
     border-radius: 5px;
+}
+.previewFieldsWrapper{
+    display: flex;
+    margin: 10px 30px;
+    gap: 20px;
+}
+.PreviewData {
+    margin: 20px;
+}
+.PreviewData .notesFields{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.PreviewData .label{
+    font-size: 16px;
+    color: #222222;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.PreviewData  .value{
+    font-size: 16px;
+    color: #626262;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.notesFields-v .value{
+margin-left: 40px;
+}
+.operations .icon{
+font-size: 20px;
+margin: 0 10px;
 }

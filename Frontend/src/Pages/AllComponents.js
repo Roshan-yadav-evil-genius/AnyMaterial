@@ -9,14 +9,17 @@ import BestTeacherCard from "../Molecules/BestTeacherCard";
 import { Button, LinkButton } from "../Atoms/Buttons";
 import { CartTable, AnalyticsTable } from "../Molecules/ProductTable";
 import TotalAmount from "../Molecules/TotalAmount";
-import { UploadFormStep1st,UploadFormStep2nd } from "../Organisms/UploadForm";
+import { UploadFormStep1st,UploadFormStep2nd,ViewFormDataStep3rd } from "../Organisms/UploadForm";
+
+
 const AllComponents = () => {
   return (
     <div className="CompViewcard">
       <h3>Upload Form</h3>
       <div className="compShowcase">
-        <UploadFormStep1st />
+        <ViewFormDataStep3rd/>
         <UploadFormStep2nd/>
+        <UploadFormStep1st />
       </div>
       <h3>Cards</h3>
       <div className="compShowcase">
