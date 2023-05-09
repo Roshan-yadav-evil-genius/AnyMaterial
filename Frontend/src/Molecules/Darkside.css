@@ -1,0 +1,61 @@
+.Darskide{
+    width: 350px;
+    height: 350px;
+    background: #020D17;
+    border-radius: 10px;
+}
+.mathicon{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 25px;
+    position: relative;
+}
+.header{
+    position: relative;
+    display: flex;
+    padding-left: 22px;
+    padding-top: 22px;
+    justify-content: space-between;
+}
+.dept{
+    color: #FFC75F;
+    font-size: 22px;
+    padding-right: 22px;
+    padding-top: 8px;
+    font-family: Montserrat ;
+}
+.sub{
+    font-family: Montserrat;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-align: left;
+    color:  #495057;
+    padding-left: 22px;
+    padding-top: 35px;
+}
+.content p{
+    color: #FFFFFF;
+    padding-top: 18px;
+    padding-left: 22px;
+    font-family: Montserrat;
+}
+.content h5{
+    color:  #495057;
+    padding-top: 22px;
+    padding-left: 18px;
+}
+.content #teacher{
+    text-align: right;
+    color: #FFC75F;
+    padding-right: 18px;
+    padding-bottom: 18px;
+}

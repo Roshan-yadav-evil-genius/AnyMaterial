@@ -10,9 +10,14 @@ import { Button, LinkButton } from "../Atoms/Buttons";
 import { CartTable, AnalyticsTable } from "../Molecules/ProductTable";
 import TotalAmount from "../Molecules/TotalAmount";
 import { UploadFormStep1st,UploadFormStep2nd } from "../Organisms/UploadForm";
+import Darkside from "../Molecules/Darkside";
 const AllComponents = () => {
   return (
     <div className="CompViewcard">
+      <h3>Darkside card</h3>
+      <div className="compShowcase">
+        <Darkside/>
+      </div>
       <h3>Upload Form</h3>
       <div className="compShowcase">
         <UploadFormStep1st />
