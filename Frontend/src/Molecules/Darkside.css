@@ -1,3 +1,9 @@
+.container{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    justify-content: space-around;
+}
 .Darskide{
     width: 350px;
     height: 350px;
@@ -58,4 +64,19 @@
     color: #FFC75F;
     padding-right: 18px;
     padding-bottom: 18px;
+}
+.Darskide2{
+    background: #02180B;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+}
+.Darskide2 .sub{
+    font-size: 22px;
+}
+.Darskide3{
+    background: #1C1D03;
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
 }
