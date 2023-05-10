@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "first_name": "Alice",
+      "last_name": "Smith",
+      "password": "MyPa$$word12345!",
+      "email": "alice.smith@example.com"
+    },
+    {
+      "id": 2,
+      "first_name": "Bob",
+      "last_name": "Johnson",
+      "password": "SaferPassword12345!",
+      "email": "bob.johnson@example.com"
+    },
+    {
+      "id": 3,
+      "first_name": "John",
+      "last_name": "Doe",
+      "password": "MyP@ssw0rd12345!",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 4,
+      "first_name": "Emily",
+      "last_name": "Wong",
+      "password": "Ea$yPa$$word12345!",
+      "email": "emily.wong@example.com"
+    },
+    {
+      "id": 5,
+      "first_name": "Mike",
+      "last_name": "Johnson",
+      "password": "P@ssword45678!",
+      "email": "mike.johnson@example.com"
+    },
+    {
+      "id": 6,
+      "first_name": "Susan",
+      "last_name": "Miller",
+      "password": "M!ddlePa$$word12345!",
+      "email": "susan.miller@example.com"
+    },
+    {
+      "id": 7,
+      "first_name": "David",
+      "last_name": "Jones",
+      "password": "SecurePa$$word12345!",
+      "email": "david.jones@example.com"
+    },
+    {
+      "id": 8,
+      "first_name": "Jenny",
+      "last_name": "Lee",
+      "password": "Pa$$word98765!",
+      "email": "jenny.lee@example.com"
+    },
+    {
+      "id": 9,
+      "first_name": "Maxwell",
+      "last_name": "Garcia",
+      "password": "MyP@$$word67890!",
+      "email": "maxwell.garcia@example.com"
+    },
+    {
+      "id": 10,
+      "first_name": "Tina",
+      "last_name": "Foster",
+      "password": "DifficultPa$$word12345!",
+      "email": "tina.foster@example.com"
+    }
+  ]
+  

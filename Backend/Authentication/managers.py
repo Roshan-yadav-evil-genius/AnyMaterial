@@ -5,7 +5,8 @@ class CustomUserManager(BaseUserManager):
     def create_user(self, email, password, **kwargs):
         if not email:
             raise ValueError("The email musst  be set")
-
+        
+        kwargs.setdefault('is_active', True)
         email = self.normalize_email(email)
         user = self.model(email=email, **kwargs)
         user.set_password(password)

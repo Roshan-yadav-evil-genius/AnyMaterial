@@ -4,7 +4,7 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-jbi1&fe9ic3y2%iz_ci835ac6)*_6m@=mg&p7gg#to8pzgimnl'
+SECRET_KEY = 'django-insecure-yz_j9$gn6_=44t(^wx@9p6evb)o0l#tm^ejx2zjxwd89)-647c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -21,13 +21,16 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'UsersAuth'
+
+    # RestFramework
+    "rest_framework",
+
+    # Custom User Model
+    "Authentication",
+
+    # Any Material Apps
+    "Notes",
 ]
-
-AUTH_USER_MODEL = "UsersAuth.Users"
-
-MEDIA_URL = '/assets/'
-MEDIA_ROOT = BASE_DIR / "Assets"
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -41,10 +44,13 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'AnyMaterial.urls'
 
+# Custom user model
+AUTH_USER_MODEL = "Authentication.User"
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / "Templates"],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -93,22 +99,16 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.1/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
-
-TIME_ZONE = 'UTC'
-
-USE_I18N = True
-
-USE_TZ = True
+ 
 
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS = [
-    BASE_DIR / "Static",
-]
+
+MEDIA_ROOT = 'Assets/'
+MEDIA_URL = 'Assets/'
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
