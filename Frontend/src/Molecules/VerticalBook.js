@@ -3,18 +3,23 @@ import React from "react";
 import "./VerticalBook.css";
 import "./Books.css";
 // Assets
-import Thumbnail from "../images/notesCovers/AnyMaterial (2).jpg";
 import { FaStar } from "react-icons/fa";
 import {BsFillCartPlusFill} from "react-icons/bs";
 import { Button } from "../Atoms/Buttons";
 
-const VerticalBook = () => {
+const VerticalBook = (props) => {
+  
+  const {id,rating,thumbnail,discount,author,finalPrice,mrp}=props
+
+  const Buy_Now = (notesId)=>{
+    alert(`By Notes of id : ${notesId}`)
+  }
   return (
     <div className="VerticalNotesCard Notes">
       {/* rcWrapper : rating  cart Wrapper */}
       <div className="rcWrapper">
         <div className="rating">
-          <div className="count">4.5</div>
+          <div className="count">{rating}</div>
           <div className="star">
             <FaStar />
           </div>
@@ -25,23 +30,24 @@ const VerticalBook = () => {
       </div>
       <div className="cover">
         <img
-          src={Thumbnail}
+          src={thumbnail}
           alt="" />
-          <div className="discount">20% off</div>
+          {discount ? <div className="discount">{discount} off</div>:""}
+          
       </div>
       <div className="title">English Classic : The island of doctor Roboto</div>
       <div className="apWrappper">
         <div className="author">
           <div className="key">Writer</div>
-          <div className="value">HG Wells</div>
+          <div className="value">{author.name}</div>
         </div>
         <div className="priceWrapper">
           <div className="price">
-            <div className="mrp">19.0 $</div>
-            <div className="finalPrice">19.0 $</div>
+            <div className="mrp">{mrp}</div>
+            <div className="finalPrice">{finalPrice}</div>
           </div>
           <div>
-            <Button size="sm" shape="rectangular">Buy now</Button>
+            <Button size="sm" shape="rectangular"onClick={()=>Buy_Now(id)} >Buy now</Button>
           </div>
         </div>
       </div>

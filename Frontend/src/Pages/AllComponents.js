@@ -9,6 +9,7 @@ import BestTeacherCard from "../Molecules/BestTeacherCard";
 import { Button, LinkButton } from "../Atoms/Buttons";
 import { CartTable, AnalyticsTable } from "../Molecules/ProductTable";
 import TotalAmount from "../Molecules/TotalAmount";
+import Thumbnail from "../images/notesCovers/AnyMaterial (2).jpg";
 
 import Darkside from "../Molecules/Darkside";
 import { UploadFormStep1st,UploadFormStep2nd,ViewFormDataStep3rd } from "../Organisms/UploadForm";
@@ -28,7 +29,7 @@ const AllComponents = () => {
       </div>
       <h3>Cards</h3>
       <div className="compShowcase">
-        <VerticalBook />
+        <VerticalBook id={1} rating={4.7} thumbnail={Thumbnail} discount={"40%"}author={{name:"Elon Musk"}} finalPrice={"480 $"} mrp={"500 $"}/>
         <HorizontalBook />
         <BundlePack />
         <TopPicksBundle />
