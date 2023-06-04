@@ -2,7 +2,7 @@ Figma Design : https://www.figma.com/file/HeZVvwSFuIDclQOgueVBGu/AnyMaterial?nod
 
 Database Design : https://drawsql.app/teams/control-1/diagrams/any-material
 
-// team membeer ashish yadav ,Avinash kumar, Roshan yadav , sagar sahu
+Team membeer ashish yadav ,Avinash kumar, Roshan yadav , sagar sahu
 
 ## Work on frontend
 
