@@ -1,3 +1,6 @@
+
+![Wireframe - Homepage](https://github.com/user-attachments/assets/a0abdb78-cb6e-4cc2-8df7-5696e6c03832)
+
 Figma Design : https://www.figma.com/file/HeZVvwSFuIDclQOgueVBGu/AnyMaterial?node-id=0%3A1&t=LIIJnbBWeWj0LOL9-1
 
 Database Design : https://drawsql.app/teams/control-1/diagrams/any-material
